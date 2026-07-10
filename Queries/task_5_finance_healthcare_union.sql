@@ -1,0 +1,3 @@
+SELECT * FROM emp_record_table WHERE DEPT = 'HEALTHCARE'
+UNION
+SELECT * FROM emp_record_table WHERE DEPT = 'FINANCE';

@@ -1,0 +1,2 @@
+select EMP_ID, FIRST_NAME, LAST_NAME, GENDER, DEPT, EMP_RATING from emp_record_table
+WHERE EMP_RATING <=2 OR EMP_RATING >= 4;

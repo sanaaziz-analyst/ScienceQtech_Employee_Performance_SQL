@@ -1,0 +1,2 @@
+SELECT CONCAT(FIRST_NAME,' ',LAST_NAME) as NAME from emp_record_table
+WHERE DEPT = 'FINANCE' ;
