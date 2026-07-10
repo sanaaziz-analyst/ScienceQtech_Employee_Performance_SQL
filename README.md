@@ -111,19 +111,7 @@ I am building a portfolio to apply for data and database roles in the UK, and th
 * Query performance analysis using EXPLAIN, and using an index to demonstrably improve it
 * Translating a plain English business question into correct, working SQL, and validating the result against the real data rather than assuming it is correct
 
-## How to Run This Yourself
 
-There are two ways to run this project, depending on what you want out of it.
-
-**Task by task, the primary way this repository is meant to be used.** Open MySQL Workbench and create a new database called employee, import data_science_team.csv, proj_table.csv and emp_record_table.csv from the Datasets folder into their own tables using the Table Data Import Wizard, then open ScienceQtechproject.md, find the task you care about, copy its query straight out of that section, and run it directly against the database, comparing your own output against the matching file in the Results folder. This is the structure the task table above is built around, and it lets you jump straight to the one task you care about rather than working through everything in order.
-
-**All in one go, using ScienceQtechproject.md.** The same file also works end to end, since every task sits in it in order from top to bottom. Copy all the SQL out in sequence and it recreates all three tables and runs every one of the fifteen tasks, start to finish. It has been tested against the real data and runs cleanly with no errors. You will still need to import the three CSV files from the Datasets folder first, exactly as described above, before running it.
-
-## What Could Be Added With More Time
-
-* A single combined SQL script that builds all three tables and every view, procedure and function in one run, for anyone who wants to set the whole project up in one step
-* Screenshots of each query running inside MySQL Workbench, alongside the plain CSV results, for anyone who wants to see the tool itself in use
-* A short written summary of the salary and rating findings across the whole company, not just per task, pulling the fifteen tasks together into two or three overall conclusions
 
 ## Acknowledgements
 
