@@ -101,6 +101,24 @@ The employee record table sits at the centre of the model. It links to the proje
 
 I am building a portfolio to apply for data and database roles in the UK, and this project was the clearest way to prove genuine, hands on SQL ability rather than just listing it as a skill on a CV. Every task here maps to a real business question a junior database administrator would actually be asked to solve, filtering and ranking employees, working out reporting lines, calculating bonus costs, and proving that an index actually speeds a query up rather than just saying it should. Splitting every task into its own query file and its own result file, rather than one long document, means anyone reviewing this repository can click straight into the specific piece of work they care about.
 
+## Key Findings
+
+
+* Across the whole company, sixteen employees sit at the two rating extremes, seven rated two or below, nine rated four or above, meaning more than half the workforce falls outside the middle band once low and high performers are combined, worth a closer look before the appraisal cycle finalises anything
+* Total bonus cost across the company, at five per cent of salary times rating, comes to 23,985, with Arthur Black, the President, alone accounting for 4,125 of that, the single largest bonus by a clear margin
+* Pay bands overlap between roles, a Manager's minimum salary of 8,500 sits inside the Lead Data Scientist's own range of 8,500 to 9,000, worth checking whether that overlap is intentional or a sign the two bands need tidying up
+* Every single member of the data science team already holds the job title their years of experience says they should, based on the company's own standard, a clean result with no mismatches to flag
+* Average salary varies noticeably by country, from 9,440 in the USA down to 5,600 in Colombia, even within the same continent, North America ranges from 7,000 in Canada up to 9,440 in the USA
+* Arthur Black, the President, has more direct reports than anyone else at five, with the next busiest managers, in Healthcare, Automotive and Retail, each holding three
+
+
+## Recommendations
+
+
+1. Review the seven employees rated two or below, since low performers were the whole point of building this rating band query, and a written development plan for each would put the bonus and rating data to actual use
+2. Check whether the Manager and Lead Data Scientist salary bands are meant to overlap, since paying a Manager less than a Lead Data Scientist in the same range could cause friction if it were ever compared side by side
+3. Keep an eye on country level pay gaps, particularly Colombia sitting well below the other locations, before they become harder to correct the longer they run unaddressed
+
 ## Skills This Project Demonstrates
 
 * Relational database design, including a self referencing relationship for manager and reporting data
