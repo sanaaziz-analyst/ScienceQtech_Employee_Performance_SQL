@@ -13,7 +13,7 @@
 * [data_science_team.csv](Datasets/data_science_team.csv), thirteen rows covering employees on the data science team specifically
 * [proj_table.csv](Datasets/proj_table.csv), six projects the company has worked on
 * [emp_record_table.csv](Datasets/emp_record_table.csv), nineteen rows covering every employee across the whole company
-* [full_project_script.sql](full_project_script.sql), every task in this project combined into a single script, for anyone who wants to run the whole thing in one go rather than task by task
+* [ScienceQtechproject.md](ScienceQtechproject.md), every task in this project written out in order, each one its own section with its own query, and linked directly from the SQL Query column in the table below
 
 ---
 
@@ -31,21 +31,21 @@ This project automates key HR insights through SQL queries and stored logic, sup
 
 | Task | Task Description | SQL Query | Result CSV |
 |------|-------------------|-----------|------------|
-| Task 1 | Basic employee details | [View Query](Queries/task_1_basic_employee_details.sql) | [View Result](Results/task_1_basic_employee_details.csv) |
-| Task 2 | Filter employees by rating | [View Query](Queries/task_2_filter_employees_by_rating.sql) | [View Result](Results/task_2_filter_employees_by_rating.csv) |
-| Task 3 | Concatenate FIRST_NAME + LAST_NAME | [View Query](Queries/task_3_concatenate_name_finance.sql) | [View Result](Results/task_3_concatenate_name_finance.csv) |
-| Task 4 | Employees who have reporters | [View Query](Queries/task_4_employees_who_have_reporters.sql) | [View Result](Results/task_4_employees_who_have_reporters.csv) |
-| Task 5 | Finance and Healthcare employees, UNION | [View Query](Queries/task_5_finance_healthcare_union.sql) | [View Result](Results/task_5_finance_healthcare_union.csv) |
-| Task 6 | Max rating per department | [View Query](Queries/task_6_max_rating_per_department.sql) | [View Result](Results/task_6_max_rating_per_department.csv) |
-| Task 7 | Min and max salary per role | [View Query](Queries/task_7_min_max_salary_per_role.sql) | [View Result](Results/task_7_min_max_salary_per_role.csv) |
-| Task 8 | Rank employees by experience | [View Query](Queries/task_8_rank_employees_by_experience.sql) | [View Result](Results/task_8_rank_employees_by_experience.csv) |
-| Task 9 | View for employees with salary above 6000 | [View Query](Queries/task_9_view_salary_above_6000.sql) | [View Result](Results/task_9_view_salary_above_6000.csv) |
-| Task 10 | Nested query, experience above 10 years | [View Query](Queries/task_10_nested_query_exp_above_10.sql) | [View Result](Results/task_10_nested_query_exp_above_10.csv) |
-| Task 11 | Stored procedure, experience above 3 years | [View Query](Queries/task_11_stored_procedure_exp_above_3.sql) | [View Result](Results/task_11_stored_procedure_exp_above_3.csv) |
-| Task 12 | Stored function, data science profile validation | [View Query](Queries/task_12_stored_function_profile_validation.sql) | [View Result](Results/task_12_stored_function_profile_validation.csv) |
-| Task 13 | Index creation for optimisation | [View Query](Queries/task_13_index_creation_for_optimisation.sql) | [View Result](Results/task_13_index_creation_for_optimisation.csv) |
-| Task 14 | Bonus calculation, five per cent times rating | [View Query](Queries/task_14_bonus_calculation.sql) | [View Result](Results/task_14_bonus_calculation.csv) |
-| Task 15 | Average salary by continent and country | [View Query](Queries/task_15_average_salary_by_continent_country.sql) | [View Result](Results/task_15_average_salary_by_continent_country.csv) |
+| Task 1 | Basic employee details | [Query](ScienceQtechproject.md#task-1-basic-employee-details) | [View Result](Results/task_1_basic_employee_details.csv) |
+| Task 2 | Filter employees by rating | [Query](ScienceQtechproject.md#task-2-filter-employees-by-rating) | [View Result](Results/task_2_filter_employees_by_rating.csv) |
+| Task 3 | Concatenate FIRST_NAME + LAST_NAME | [Query](ScienceQtechproject.md#task-3-concatenate-first_name-and-last_name) | [View Result](Results/task_3_concatenate_name_finance.csv) |
+| Task 4 | Employees who have reporters | [Query](ScienceQtechproject.md#task-4-employees-who-have-reporters) | [View Result](Results/task_4_employees_who_have_reporters.csv) |
+| Task 5 | Finance and Healthcare employees, UNION | [Query](ScienceQtechproject.md#task-5-finance-and-healthcare-employees-union) | [View Result](Results/task_5_finance_healthcare_union.csv) |
+| Task 6 | Max rating per department | [Query](ScienceQtechproject.md#task-6-max-rating-per-department) | [View Result](Results/task_6_max_rating_per_department.csv) |
+| Task 7 | Min and max salary per role | [Query](ScienceQtechproject.md#task-7-min-and-max-salary-per-role) | [View Result](Results/task_7_min_max_salary_per_role.csv) |
+| Task 8 | Rank employees by experience | [Query](ScienceQtechproject.md#task-8-rank-employees-by-experience) | [View Result](Results/task_8_rank_employees_by_experience.csv) |
+| Task 9 | View for employees with salary above 6000 | [Query](ScienceQtechproject.md#task-9-view-for-employees-with-salary-above-6000) | [View Result](Results/task_9_view_salary_above_6000.csv) |
+| Task 10 | Nested query, experience above 10 years | [Query](ScienceQtechproject.md#task-10-nested-query-experience-above-10-years) | [View Result](Results/task_10_nested_query_exp_above_10.csv) |
+| Task 11 | Stored procedure, experience above 3 years | [Query](ScienceQtechproject.md#task-11-stored-procedure-experience-above-3-years) | [View Result](Results/task_11_stored_procedure_exp_above_3.csv) |
+| Task 12 | Stored function, data science profile validation | [Query](ScienceQtechproject.md#task-12-stored-function-data-science-profile-validation) | [View Result](Results/task_12_stored_function_profile_validation.csv) |
+| Task 13 | Index creation for optimisation | [Query](ScienceQtechproject.md#task-13-index-creation-for-optimisation) | [View Result](Results/task_13_index_creation_for_optimisation.csv) |
+| Task 14 | Bonus calculation, five per cent times rating | [Query](ScienceQtechproject.md#task-14-bonus-calculation-five-per-cent-times-rating) | [View Result](Results/task_14_bonus_calculation.csv) |
+| Task 15 | Average salary by continent and country | [Query](ScienceQtechproject.md#task-15-average-salary-by-continent-and-country) | [View Result](Results/task_15_average_salary_by_continent_country.csv) |
 
 ---
 
@@ -115,9 +115,9 @@ I am building a portfolio to apply for data and database roles in the UK, and th
 
 There are two ways to run this project, depending on what you want out of it.
 
-**Task by task, the primary way this repository is meant to be used.** Open MySQL Workbench and create a new database called employee, import data_science_team.csv, proj_table.csv and emp_record_table.csv from the Datasets folder into their own tables using the Table Data Import Wizard, then open any file from the Queries folder and run it directly against the database, comparing your own output against the matching file in the Results folder. This is the structure the task table above is built around, and it lets you jump straight to the one task you care about rather than working through everything in order.
+**Task by task, the primary way this repository is meant to be used.** Open MySQL Workbench and create a new database called employee, import data_science_team.csv, proj_table.csv and emp_record_table.csv from the Datasets folder into their own tables using the Table Data Import Wizard, then open ScienceQtechproject.md, find the task you care about, copy its query straight out of that section, and run it directly against the database, comparing your own output against the matching file in the Results folder. This is the structure the task table above is built around, and it lets you jump straight to the one task you care about rather than working through everything in order.
 
-**All in one go, using full_project_script.sql.** This single file, sitting in the repository root, recreates all three tables and runs every one of the fifteen tasks in order, start to finish. It exists purely as a convenience for anyone who wants to see the entire project run end to end in one pass, rather than opening fifteen separate files. It has been tested against the real data and runs cleanly with no errors. You will still need to import the three CSV files from the Datasets folder first, exactly as described above, before running it.
+**All in one go, using ScienceQtechproject.md.** The same file also works end to end, since every task sits in it in order from top to bottom. Copy all the SQL out in sequence and it recreates all three tables and runs every one of the fifteen tasks, start to finish. It has been tested against the real data and runs cleanly with no errors. You will still need to import the three CSV files from the Datasets folder first, exactly as described above, before running it.
 
 ## What Could Be Added With More Time
 
@@ -128,8 +128,6 @@ There are two ways to run this project, depending on what you want out of it.
 ## Acknowledgements
 
 The dataset, problem statement and business scenario for this project were provided as part of a structured SQL training course. All SQL queries, the entity relationship model and this write up are my own work.
-
----
 
 
 ## Contact
